@@ -57,3 +57,9 @@ const teamMembers = [
 //                 skillString = ''
 //     }
 // })
+
+const outlook = document.querySelector('.outlook')
+
+outlook.addEventListener('click', () =>{
+    xBtn.click();
+})
