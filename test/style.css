@@ -420,6 +420,37 @@ form button{
         padding-bottom: 2rem;
         border-bottom: 1px solid rgba(255,255,255,0.2);
     }
+    .footer{
+        margin-top: 3rem;
+        flex-direction: column;
+        padding: 1rem 2rem;
+        height: max-content;
+    }
+    .footer .sec1{
+        width: 100%;
+        box-sizing: border-box;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid rgba(255,255,255,0.19);
+    }
+    .footer .sec2{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .sec2 h1{
+        margin: 0;
+    }
+    form{
+        padding: 0 1rem;
+    }
+    .sec-con h1{
+        font-size: 2rem;
+    }
+    .sec-con h4{
+        font-size: 1rem;
+    }
+    .sec-con h2{
+        font-size: 1.5rem;
+    }
 }
 @media screen and (max-width: 768px) {
     .body{
@@ -468,18 +499,3 @@ form button{
         padding: 0;
     }
 }
-
-/*----------------------------------------------------------------------------------------------------------------*/
-
-.section::-webkit-scrollbar {
-    width: 1px;
-  }
-   
-  .section::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  }
-   
-  .section::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 1px solid slategrey;
-  }
